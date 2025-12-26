@@ -8,12 +8,12 @@ export default function UseState() {
 
     return (
         <div className='main-container'>
-            <div>Use-Effect</div>
+            <h1 className='main-heading'>Learning UseState</h1>
             <div className='main-hook'>
                 <h1>{count}</h1>
                 <input className="input" type='text' value={user.name} onChange={(e) => setUser((prev) => ({ ...prev, name: e.target.value }))}></input>
                 <h2>{text}</h2>
-                <input type='text' value={text} onChange={(e) => setText(e.target.value)}></input>
+                <input className='input' type='text' value={text} onChange={(e) => setText(e.target.value)}></input>
                 <h1>{user.name} {"->"} {user.age}</h1>
                 <button className='button' onClick={() => setCount(e => e + 1)}>Click</button>
             </div>

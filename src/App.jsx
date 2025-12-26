@@ -9,11 +9,11 @@ function App() {
 
   return (
    <>
-   {/* <UseState /> */}
+   <UseState />
    {/* <UseEffect /> */}
    {/* <UseRef /> */}
    {/* <UseMemo /> */}
-   <UseCallback />
+   {/* <UseCallback /> */}
    </>
   )
 }
