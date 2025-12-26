@@ -1,8 +1,9 @@
 import './App.css'
-import UseEffect from './UseEffect'
-import UseMemo from './UseMemo'
-import UseRef from './UseRef'
-import UseState from './UseState'
+import UseCallback from './Hooks/UseCallback'
+import UseEffect from './Hooks/UseEffect'
+import UseMemo from './Hooks/UseMemo'
+import UseRef from './Hooks/UseRef'
+import UseState from './Hooks/UseState'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
    {/* <UseEffect /> */}
    {/* <UseRef /> */}
    {/* <UseMemo /> */}
-   
+   <UseCallback />
    </>
   )
 }
