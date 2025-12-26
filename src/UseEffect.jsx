@@ -15,7 +15,8 @@ export default function UseEffect() {
 
   return (
     <div className='main-container'>
-        <h1>Learning UseEffect {count}</h1>
+      <h1 className='main-heading'>Learning UseEffect</h1>
+        <h1>Count is: {count}</h1>
     </div>
   )
 }

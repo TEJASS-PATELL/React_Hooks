@@ -1,5 +1,6 @@
 *{
-  font-family: "Montserrat", sans-serif;
+  font-family: "Bebas Neue ","Saira","Caveat", "Irish Grover","Comic Relief",  sans-serif;
+  letter-spacing: 2px;
 }
 
 .main-container {
@@ -7,6 +8,7 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   display: flex;
   flex-direction: column;
+  position: relative;
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
@@ -56,4 +58,20 @@
 
 .input:focus {
   border-color: #000000;
+}
+
+.main-heading {
+  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+  color: #2563eb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px 24px;
+  margin: 0;
+  background-color: transparent; 
+  z-index: 1000;
 }
