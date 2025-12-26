@@ -75,3 +75,7 @@
   background-color: transparent; 
   z-index: 1000;
 }
+
+h1{
+  font-size: 40px;
+}
