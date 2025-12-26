@@ -10,8 +10,9 @@ function App() {
    <>
    {/* <UseState /> */}
    {/* <UseEffect /> */}
-   <UseRef />
+   {/* <UseRef /> */}
    {/* <UseMemo /> */}
+   
    </>
   )
 }
