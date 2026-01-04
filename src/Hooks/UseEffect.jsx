@@ -8,9 +8,7 @@ export default function UseEffect() {
         setCount(e => e + 1)
         }, 2000);   
 
-        return () => {
-            clearTimeout(id);
-        }
+        return () => clearTimeout(id);
     }, [count])
 
   return (
