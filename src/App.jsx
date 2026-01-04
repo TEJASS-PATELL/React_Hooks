@@ -1,5 +1,6 @@
 import './App.css'
 import UseCallback from './Hooks/UseCallback'
+import UseContext from './Hooks/UseContext'
 import UseEffect from './Hooks/UseEffect'
 import UseMemo from './Hooks/UseMemo'
 import UseRef from './Hooks/UseRef'
@@ -13,7 +14,8 @@ function App() {
    {/* <UseEffect /> */}
    {/* <UseRef /> */}
    {/* <UseMemo /> */}
-   <UseCallback />
+   {/* <UseCallback /> */}
+   <UseContext />
    </>
   )
 }
