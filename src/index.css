@@ -79,3 +79,9 @@
 h1{
   font-size: 40px;
 }
+
+strong{
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 25px;
+}
