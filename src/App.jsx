@@ -20,8 +20,8 @@ function App() {
    {/* <UseCallback /> */}
    {/* <UseContext /> */}
    {/* <UseReducer /> */}
-   {/* <UseLayoutEffect /> */}
-   <CustomHook />
+   <UseLayoutEffect />
+   {/* <CustomHook /> */}
    </>
   )
 }
