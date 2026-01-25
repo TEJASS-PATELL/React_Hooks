@@ -23,10 +23,23 @@ function UseReducer() {
 
     return (
         <div className='main-container'>
-            <h1 className='main-heading'>Learning UseReducer - </h1>
+            <h1 className="main-heading">Learning useReducer -</h1>
+
+            <p className="hook-definition">
+                useReducer is a React Hook used for managing complex state logic by
+                centralizing state updates in a reducer function based on actions.
+            </p>
+
+            <ul className="hook-list">
+                <li>Managing complex state with multiple related values.</li>
+                <li>Handling state transitions using explicit actions.</li>
+                <li>Replacing useState when state update logic becomes hard to manage.</li>
+                <li>Working with predictable and testable state updates.</li>
+            </ul>
+
             <h1> Count: {state.count} </h1>
 
-            <div style={{ display: "flex", justifyContent: "center", gap: "12px",  }}>
+            <div style={{ display: "flex", justifyContent: "center", gap: "12px", }}>
                 <button className='button' onClick={() => dispatch({ type: "INCREMENT" })}>INC</button>
 
                 <button className='button' onClick={() => dispatch({ type: "DECREMENT" })}>DEC</button>
